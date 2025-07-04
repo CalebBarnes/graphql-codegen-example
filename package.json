@@ -1,0 +1,26 @@
+{
+  "name": "graphql-codegen-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codegen": "gql-gen --config codegen.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "graphql": "^16.11.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.7",
+    "@graphql-codegen/introspection": "^4.0.3",
+    "@graphql-codegen/typescript": "^4.1.6",
+    "@types/node": "^24.0.10",
+    "graphql-codegen-typescript-common": "0.18.2",
+    "graphql-codegen-typescript-server": "0.18.2"
+  }
+}
